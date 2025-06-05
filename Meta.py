@@ -13,14 +13,14 @@ class Meta:
 
 
     def __init__(self , symbol):
-        self.athentication()
+        self.authentication()
         self.symbol = symbol
 
 
 
 
-    def athentication(self):
-        if not mt5.initialize(login=61349847, server="Pepperstone-Demo" ,password="Hosein1776$"):
+    def authentication(self):
+        if not mt5.initialize():
             print('this is error code', mt5.last_error())
             quit()
 
