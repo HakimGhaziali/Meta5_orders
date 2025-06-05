@@ -10,15 +10,3 @@ This project provides a Python class that allows you to connect to a MetaTrader 
 - Automatically detect the correct `filling mode`
 - Retrieve detailed position data by ticket ID
 
----
-
-## 🛠️ Requirements
-
-- Python 3.7 or higher
-- MetaTrader 5 terminal must be installed and running
-- Required Python packages:
-
-Install with:
-
-```bash
-pip install -r requirements.txt
